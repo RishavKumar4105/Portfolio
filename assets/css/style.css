@@ -724,7 +724,7 @@ main {
     text-align: right;
   }
 }
-@media (min-width: 1025px) and (max-width: 1494px){
+@media (min-width: 1025px) and (max-width: 2560px){
     .testimonials-avatar-box img {
     padding: 2px 3px;
     margin: 15px 15px 15px 15px;
