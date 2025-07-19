@@ -368,27 +368,30 @@ main {
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
 }
-@media (	min-width: 601px) and (max-width: 1024px){
-  .avatar-box img{
-  background: var(--bg-gradient-onyx);
-  border-radius: 20px;
-  height: 130px;
-}
-}
-@media (min-width: 1025px){
-  .avatar-box img{
-  background: var(--bg-gradient-onyx);
-  border-radius: 20px;
-  height: 130px;
-}
-}
-@media (max-width: 600px){
-  .avatar-box img{
+
+
+@media (max-width: 600px) {
+ .avatar-box img{
   background: var(--bg-gradient-onyx);
   border-radius: 10px;
   height: 80px;
+ }
 }
+@media (min-width: 601px) and (max-width: 1024px){
+ .avatar-box img{
+  background: var(--bg-gradient-onyx);
+  border-radius: 10px;
+  height: 130px;
+ } 
 }
+@media (min-width: 1025px) and (max-width: 2560px){
+     .avatar-box img{
+  background: var(--bg-gradient-onyx);
+  border-radius: 20px;
+     }
+}
+
+
 
 .info-content .name {
   color: var(--white-2);
